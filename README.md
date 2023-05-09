@@ -19,7 +19,7 @@ A Gateway Server
 	}
   ```
   **Description:** 
-  - This will rewrite from middleware server "http://localhost:5000/buntil/callback" to "http://localhost:3000/callback"
+  - This will rewrite from gateway server "http://localhost:5000/buntil/callback" to "http://localhost:3000/callback"
 
 ---
 
@@ -38,7 +38,7 @@ A Gateway Server
 	}
   ```
   **Description:** 
-  - This will rewrite from middleware server "http://localhost:5000/test" to "http://localhost:3000/"
+  - This will rewrite from gateway server "http://localhost:5000/test" to "http://localhost:3000/"
 
 ---
 
@@ -55,4 +55,4 @@ A Gateway Server
 	}
   ```
   **Description:** 
-  - This will rewrite from middleware server "http://localhost:5000/test" to "http://localhost:3001/test"
+  - This will rewrite from gateway server "http://localhost:5000/test" to "http://localhost:3001/test"
