@@ -90,7 +90,6 @@ func TDR(ctx context.Context, request, response []byte) {
 	fields = append(fields, zap.String("level", "info"))
 	fields = append(fields, zap.String("message", separator))
 
-	// add this first, so global context value still logged
 	fields = append(fields, formatLogs(ctx, separator)...)
 
 	fields = append(fields, zap.String("app", tdr.AppName))

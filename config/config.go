@@ -6,13 +6,10 @@ import (
 )
 
 var (
-	// v viper global variable
 	Config *viper.Viper
-	// env used environment
 )
 
 func init() {
-	// initializing viper
 	Config = viper.New()
 	Config.SetConfigFile(".env")
 
